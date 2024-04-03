@@ -1,0 +1,17 @@
+2024-04-03 16:12:07.287  INFO 16132 --- [main] c.nagarro.CliqAssignentApplicationTests  : Starting CliqAssignentApplicationTests using Java 17.0.10 on IN-PG03526Y with PID 16132 (started by abhishekkumar24 in C:\Users\abhishekkumar24\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\CliqAssignent)
+2024-04-03 16:12:07.326  INFO 16132 --- [main] c.nagarro.CliqAssignentApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-04-03 16:12:10.274  INFO 16132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-03 16:12:10.687  INFO 16132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 381 ms. Found 5 JPA repository interfaces.
+2024-04-03 16:12:12.685  INFO 16132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-03 16:12:12.944  INFO 16132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-04-03 16:12:13.580  INFO 16132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-03 16:12:14.494  INFO 16132 --- [main] com.zaxxer.hikari.HikariDataSource       : tatac - Starting...
+2024-04-03 16:12:16.101  INFO 16132 --- [main] com.zaxxer.hikari.HikariDataSource       : tatac - Start completed.
+2024-04-03 16:12:16.176  INFO 16132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-03 16:12:19.528  INFO 16132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-03 16:12:19.558  INFO 16132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-03 16:12:21.913  WARN 16132 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-03 16:12:23.606  INFO 16132 --- [main] c.nagarro.CliqAssignentApplicationTests  : Started CliqAssignentApplicationTests in 17.876 seconds (JVM running for 21.48)
+2024-04-03 16:12:24.354  INFO 16132 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-03 16:12:24.360  INFO 16132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : tatac - Shutdown initiated...
+2024-04-03 16:12:24.390  INFO 16132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : tatac - Shutdown completed.
