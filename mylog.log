@@ -55,3 +55,23 @@
 2024-04-03T16:39:25.360+05:30  INFO 24404 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-04-03T16:39:25.363+05:30  INFO 24404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : tatac - Shutdown initiated...
 2024-04-03T16:39:25.380+05:30  INFO 24404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : tatac - Shutdown completed.
+2024-04-03T16:56:06.179+05:30  INFO 9532 --- [main] c.nagarro.CliqAssignentApplicationTests  : Starting CliqAssignentApplicationTests using Java 17.0.10 with PID 9532 (started by abhishekkumar24 in C:\Users\abhishekkumar24\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\CliqAssignent)
+2024-04-03T16:56:06.184+05:30  INFO 9532 --- [main] c.nagarro.CliqAssignentApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-04-03T16:56:08.727+05:30  INFO 9532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-03T16:56:09.092+05:30  INFO 9532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 332 ms. Found 5 JPA repository interfaces.
+2024-04-03T16:56:10.665+05:30  INFO 9532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-03T16:56:10.995+05:30  INFO 9532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-03T16:56:11.114+05:30  INFO 9532 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-03T16:56:12.102+05:30  INFO 9532 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-03T16:56:12.196+05:30  INFO 9532 --- [main] com.zaxxer.hikari.HikariDataSource       : tatac - Starting...
+2024-04-03T16:56:13.181+05:30  INFO 9532 --- [main] com.zaxxer.hikari.pool.HikariPool        : tatac - Added connection com.mysql.cj.jdbc.ConnectionImpl@56d822dc
+2024-04-03T16:56:13.188+05:30  INFO 9532 --- [main] com.zaxxer.hikari.HikariDataSource       : tatac - Start completed.
+2024-04-03T16:56:13.310+05:30  WARN 9532 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-03T16:56:13.314+05:30  WARN 9532 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-04-03T16:56:16.029+05:30  INFO 9532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-03T16:56:16.297+05:30  INFO 9532 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-03T16:56:18.549+05:30  WARN 9532 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-03T16:56:20.022+05:30  INFO 9532 --- [main] c.nagarro.CliqAssignentApplicationTests  : Started CliqAssignentApplicationTests in 14.805 seconds (process running for 17.72)
+2024-04-03T16:56:21.843+05:30  INFO 9532 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-03T16:56:21.849+05:30  INFO 9532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : tatac - Shutdown initiated...
+2024-04-03T16:56:21.877+05:30  INFO 9532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : tatac - Shutdown completed.
